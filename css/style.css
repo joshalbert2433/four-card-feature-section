@@ -22,6 +22,7 @@ html {
 
 body {
     height: 100vh;
+    background: var(--grayLight);
 }
 
 .header {
@@ -53,6 +54,11 @@ body {
     color: var(--blueGrayish)
 }
 
+.content p {
+    color: var(--blueGrayish);
+    font-size: .8rem;
+}
+
 .content-wrapper {
     margin: 0 auto;
     display: grid;
@@ -70,10 +76,10 @@ body {
 .content {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 330px;
     padding: 2rem;
     height: 240px;
-    box-shadow: 0 10px 10px -2px var(--blueGrayish);
+    box-shadow: 0 10px 20px -6px var(--blueGrayish);
     background: white !important;
     border-radius: 5px;
 
